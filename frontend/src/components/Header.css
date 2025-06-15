@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+
+header img {
+  height: 5rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+
+
+header h1 {
+    font-size: 5rem;
+    background: linear-gradient(90deg, rgba(163, 163, 16, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+
+header p {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #6ea31a;
+  font-family: "Roboto Condensed", sans-serif;
+}
